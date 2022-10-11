@@ -1,9 +1,9 @@
-const rate = document.querySelectorAll("#rate");
-rate.forEach((r) => r.addEventListener("click", selectRate));
-
 function removeClass() {
   rate.forEach((r) => r.classList.remove("bg-orange"));
 }
+
+const rate = document.querySelectorAll("#rate");
+rate.forEach((r) => r.addEventListener("click", selectRate));
 
 function selectRate(e) {
   removeClass();
