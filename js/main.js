@@ -14,9 +14,9 @@ function selectRate(e) {
   button.innerText = `You selected ${this.innerText} out of 5`;
 }
 
-const submit = document.getElementById("submit");
+const form = document.getElementById("form");
 
-submit.addEventListener("click", (e) => {
+form.addEventListener("submit", (e) => {
   e.preventDefault();
 
   const hide = document.getElementById("hide");
